@@ -1,0 +1,240 @@
+body , html{
+    margin: 0;
+    padding: 0;
+    font-family: "jost";
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: 'jost-bold';
+    src: url(/Fonts/Jost-Bold.ttf);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'jost-mini-bold';
+    src: url(/Fonts/Jost-Bold.ttf);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'jost';
+    src: url(/Fonts/Jost-Bold.ttf);
+    font-display: swap;
+}
+
+
+
+@media(max-width:0em) {
+    .section-1{
+        height: 1m;
+    }
+}
+
+/* -------------------------------- */
+/* ----end-----common------end----- */
+/* -------------------------------- */
+@media (max-width:0em) {
+   
+}
+
+
+@media (max-width:320px) {
+   
+}
+
+
+@media (max-width:375px) {
+    
+}
+
+
+@media (max-width:768px) {
+    
+}
+
+
+@media (max-width:1024px){
+
+}
+
+@media (max-width:1440px){
+
+}
+
+
+/* end responsive */
+
+
+.navbar{
+    background-color: #eeeff1;
+    width: 100%;
+    height: 5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-items a{
+ font-size: .8em;
+ text-decoration: none;
+ color: #1b1b1d;
+ margin: 0 1em;
+}
+
+.nav-link:hover{
+    color: #fff;
+    transition: all .3s ;
+   
+}
+.nav-link::before,.nav-link:hover{
+
+    border-bottom: #fff solid;
+    transition: all .3s
+}
+.shopping-bag{
+    background-color: #fff;
+    border: none;
+    border-radius: 50%;
+    padding: 1em ;
+    transition: all .3s;
+}
+
+.shopping-bag:hover{
+    transform: scale(1.2);
+    transition: all .3s;
+}
+
+
+.logo{
+    margin-left: 1em;
+}
+
+.gift{
+    background-color: #1b1b1d;
+    color: #f3f4f5;
+    font-weight: 700;
+    border-radius: 20em;
+    padding: 1em ;
+    margin-right: 1em;
+    transition: all .3s ;
+}
+
+.gift:hover{
+    transform: scale(1.09);
+    transition: all .3s;
+}
+.burger{
+    display: none;
+}
+
+
+/* END navbar End */
+
+/* section-1 */
+.section-1{
+    background-color: #eeeff1;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+.header-left{
+    text-align: left;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header-left h1{
+    font-size: 5em;
+    font-family: "jost-bold";
+    line-height: 1;
+    margin: 0;
+    color: #000;
+    display: inline;
+}
+.header-left p{
+    position: relative;
+    color: #333;
+    margin-top: 2em;
+}
+
+.header-left span{
+    margin-left: 1em;
+    position: absolute;
+    top: 0;
+}
+.headerbtns{
+    margin-top: 2em;
+}
+.download{
+    background-color: #1b1b1d ;
+    padding: .8em ;
+    color: #f3f4f5;
+    margin-right: 2em;
+    border-radius: 5em;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+.download:hover{
+    transform: scale(1.2);
+    transition: all .3s ease;
+}
+.shop{
+    background-color: transparent;
+    border: none;
+    border-bottom: #1b1b1d solid;
+    letter-spacing: .1em;
+    margin-left: 1em;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.shop:hover{
+    transform: scale(1.2);
+    border: #1b1b1d solid;
+    border-radius: 5em;
+    transition: all .6s ease;
+    padding: 1em;
+}
+
+/* header right */
+
+.header-right{
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+    
+    
+}
+.header-img{
+   width: 15em;
+   transform: translateX(10em);
+}
+
+.header-right span img{
+    width: 2em;
+}
+.header-right span{
+    position: absolute;
+    background-color:#fff;
+    bottom: 10%;
+    left: 10%;
+    width: 15em;
+    border-radius: 1em;
+    padding: 1em;
+   
+}

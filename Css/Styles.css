@@ -264,7 +264,7 @@ body , html{
 
 .section-2 p{
     color: #1b1b1d;
-    width: 25em;
+   
    
 }
 
@@ -291,6 +291,7 @@ body , html{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    
     
 }
 .card h1{
@@ -331,6 +332,8 @@ body , html{
     height: 100vh;
     background-color: #F3F5F7;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .section-3-right h1{
@@ -340,6 +343,7 @@ body , html{
 .section-3-right p{
     color: #555;
     margin-top: 3em;
+    width: 366px;
 }
 
 .section-3-btn{
@@ -376,7 +380,7 @@ body , html{
 }
 
 .section-4-text h1{
-    font-size: 4em;
+    font-size: 3em;
     
     color: #000;
 }
@@ -397,12 +401,17 @@ body , html{
 }
 
 .best-wrapper .card .selling{
-    transform: translateY(-3em);
+    position: absolute;
+    top: 2%;
     font-size: 1em;
 }
 
 .best-wrapper .card h2{
     margin-bottom: 2em;
+}
+
+.best-wrapper .card p{
+    width: 15em;
 }
 
 .best-wrapper .card span img{
@@ -431,6 +440,9 @@ body , html{
 .section-5{
     width: 100%;
     background-color: #F3F5F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 .reviews{
@@ -438,10 +450,12 @@ body , html{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    text-align: center;    
 }
 
 .reviews-right{
     margin-top: 2em;
+    
 }
 .reviews-right h1{
     font-size: 3em;
@@ -459,6 +473,10 @@ body , html{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    justify-self: center;
+    align-content: center;
+    margin-left: 15%;
+
 }
 .review-card{
     background-color: #eeeff1;
