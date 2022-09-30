@@ -402,16 +402,21 @@ body , html{
 
 .best-wrapper .card .selling{
     position: absolute;
-    top: 2%;
+    top: 6%;
     font-size: 1em;
+    margin-left: 26%;
 }
 
 .best-wrapper .card h2{
-    margin-bottom: 2em;
+    margin-bottom: 1em;
+    margin-left: 30%;
+    line-height: 1;
+    text-align: left;
 }
 
 .best-wrapper .card p{
     width: 15em;
+    margin-top: 3em;
 }
 
 .best-wrapper .card span img{
