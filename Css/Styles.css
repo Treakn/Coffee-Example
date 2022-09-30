@@ -505,6 +505,9 @@ body , html{
     height: 70vh;
     background-color: #333;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer-div{
